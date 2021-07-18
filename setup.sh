@@ -13,4 +13,4 @@ sudo pip3 install updog
 
 #--------emp3r0r--------#
 
-git clone git@github.com:jm33-m0/emp3r0r.git
+git clone https://github.com/jm33-m0/emp3r0r.git
