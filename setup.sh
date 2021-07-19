@@ -29,7 +29,3 @@ sudo pip3 install git+https://github.com/calebstewart/pwncat.git
 
 # SSH connection:
 # $ pwncat <username>@<remote_ip>
-
-#--------emp3r0r--------#
-
-git clone https://github.com/jm33-m0/emp3r0r.git
