@@ -30,3 +30,56 @@ sudo pip3 install git+https://github.com/calebstewart/pwncat.git
 
 # SSH connection:
 # $ pwncat <username>@<remote_ip>
+
+#--------Linux Privilege Escalation Module Start--------#
+
+mkdir linux_privesc_arsenal
+cd linux_privesc_arsenal
+
+#--------LinPEAS--------#
+
+wget https://raw.githubusercontent.com/carlospolop/privilege-escalation-awesome-scripts-suite/master/linPEAS/linpeas.sh
+chmod +x linpeas.sh
+
+#--------LinEnum--------#
+
+wget https://raw.githubusercontent.com/rebootuser/LinEnum/master/LinEnum.sh
+chmod +x LinEnum.sh
+
+#--------Linux Exloit Suggester--------#
+
+wget https://raw.githubusercontent.com/mzet-/linux-exploit-suggester/master/linux-exploit-suggester.sh -O les.sh
+chmod +x les.sh
+
+#--------Linux Priv Checker--------#
+
+sudo pip3 install linuxprivchecker
+
+# Run Linux Priv Checker and store the output in linuxprivchecker.log:
+# $ linuxprivchecker -w -o linuxprivchecker.log
+
+#--------Linux Privilege Escalation Module End--------#
+
+cd
+
+#--------Windows Privilege Escalation Module Start--------#
+
+mkdir windows_privesc_arsenal
+cd windows_privesc_arsenal
+
+#--------WinPEAS Obfuscated Executables--------#
+
+wget https://github.com/carlospolop/PEASS-ng/raw/master/winPEAS/winPEASexe/binaries/Obfuscated%20Releases/winPEASx86.exe
+wget https://github.com/carlospolop/PEASS-ng/raw/master/winPEAS/winPEASexe/binaries/Obfuscated%20Releases/winPEASx64.exe
+
+#--------PowerUp--------#
+
+wget https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/master/Privesc/PowerUp.ps1
+
+#--------Windows Exploit Suggester--------#
+
+wget https://raw.githubusercontent.com/AonCyberLabs/Windows-Exploit-Suggester/master/windows-exploit-suggester.py
+
+#--------Windows Privilege Escalation Module End--------#
+
+cd
