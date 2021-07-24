@@ -70,15 +70,20 @@ cd windows_privesc_arsenal
 #--------WinPEAS Obfuscated Executables--------#
 
 wget https://github.com/carlospolop/PEASS-ng/raw/master/winPEAS/winPEASexe/binaries/Obfuscated%20Releases/winPEASx86.exe
+chmod +x winPEASx86.exe
+
 wget https://github.com/carlospolop/PEASS-ng/raw/master/winPEAS/winPEASexe/binaries/Obfuscated%20Releases/winPEASx64.exe
+chmod +x winPEASx64.exe
 
 #--------PowerUp--------#
 
 wget https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/master/Privesc/PowerUp.ps1
+chmod +x PowerUp.ps1
 
 #--------Windows Exploit Suggester--------#
 
 wget https://raw.githubusercontent.com/AonCyberLabs/Windows-Exploit-Suggester/master/windows-exploit-suggester.py
+chmod +x windows-exploit-suggester.py
 
 #--------Windows Privilege Escalation Module End--------#
 
